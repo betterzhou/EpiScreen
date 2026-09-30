@@ -5,7 +5,7 @@
 This repository contains code for the paper "Early Epilepsy Detection from Electronic Health Records with Large Language Models" (npj Digital Medicine 2026).
 
 
-## 3. Usage
+## 2. Usage
 
 ### Environment
 
@@ -14,19 +14,16 @@ Install packages:
 
 ### Datasets
 
-### Example
-
-Set up the config file before running the code.
 
 
 
-## 4. Contact
+## 3. Contact
 
 For research cooperation, please contact shuang DOT zhou AT connect.polyu DOT hk
 
 
 
-## 5. Citation
+## 4. Citation
 Please kindly cite the paper if you are interested in our work.
 ```bib
 @article{zhou2026episcreen,
