@@ -9,10 +9,10 @@ This repository contains code for the paper "Early Epilepsy Detection from Elect
 
 
 Training
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python baseline_Llama_SFT.py --mode train
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python main.py --mode train
 
 Test
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python baseline_Llama_SFT.py --mode test --output_file ./results/test_results.xlsx
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python main.py --mode test --output_file ./results/test_results.xlsx
 
 ### Environment
 
