@@ -13,17 +13,16 @@ EpiScreen fine-tunes a large language model (e.g., Qwen2.5-32B-Instruct) with QL
 **Package requirements**
 
 
-| Package | Version |
-|---|---|
-| pandas | - |
-| torch (PyTorch) | >= 2.0 |
-| numpy | - |
-| matplotlib | - |
-| transformers | >= 4.35.0 |
-| peft | >= 0.6.0 |
-| scikit-learn | - |
-| bitsandbytes | - |
-| accelerate | optional, but recommended |
+- `pandas`
+- `torch` (PyTorch), version >= 2.0
+- `numpy`
+- `matplotlib`
+- `transformers`, version >= 4.35.0
+- `peft`, version >= 0.6.0
+- `scikit-learn`
+- `bitsandbytes`
+- `accelerate` (optional, but recommended)
+
 
 Install them with:
 
