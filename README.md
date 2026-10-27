@@ -32,24 +32,8 @@ pip install pandas torch numpy matplotlib transformers peft scikit-learn bitsand
 pip install accelerate
 ```
 
-### 2.2 Dataset
 
-Prepare a CSV file with the following columns:
-
-| Column | Description |
-|---|---|
-| `text` | Clinical note |
-| `label` | `1` for Epilepsy, `0` for PNES |
-
-Example:
-
-```csv
-text,label
-"Patient presents with recurrent episodes of ...",1
-"Episodes are triggered by emotional stress ...",0
-```
-
-### 2.3 Training
+### 2.2 Training
 
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py \
@@ -59,7 +43,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py \
     --learning_rate 5e-4
 ```
 
-### 2.4 Testing
+### 2.3 Testing
 
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python test.py \
