@@ -5,7 +5,7 @@
 
 This repository contains the code for the paper **"Early Epilepsy Detection from Electronic Health Records with Large Language Models"** (npj Digital Medicine, 2026).
 
-EpiScreen fine-tunes a large language model (e.g., Qwen2.5-32B-Instruct) with QLoRA to distinguish epilepsy from psychogenic nonepileptic seizures (PNES) using clinical notes from electronic health records.
+EpiScreen fine-tunes a large language model (e.g., Qwen2.5-32B-Instruct) with QLoRA to distinguish epilepsy from non-epilepsy using clinical notes from electronic health records.
 
 ## 2. Usage
 
